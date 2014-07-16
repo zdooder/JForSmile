@@ -7,12 +7,14 @@ in the Wingdings font.  This works well if you have Wingdings installed, but (dr
 browsers like Firefox and Chrome don't allow the use of non-standard fonts like wingdings (which isn't Unicode so
 can't be standard).
 
-This userscript written in JavaScript replaces these Wingdings characters in Gmail with a Yahoo Emoticon Smiley, 
-like <img src="//l.yimg.com/us.yimg.com/i/mesg/emoticons7/1.gif">.
+This userscript written in JavaScript replaces these Wingdings characters in Gmail with a Yahoo Emoticon Smiley
+instead.
+
 
 
 Install
 -------
 [http://userscripts.org/scripts/show/83513](http://userscripts.org/scripts/show/83513) (userscripts.org is down)
+
 [http://userscripts-mirror.org/scripts/show/83513](http://userscripts-mirror.org/scripts/show/83513) (temporary static mirror)
 
