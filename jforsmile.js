@@ -32,7 +32,12 @@ function hashChanged(){
 	    canvas_frame = document.getElementById('canvas_frame');
 	    if (canvas_frame && canvas_frame.contentDocument) {
 	        makeSmileys(canvas_frame.contentDocument);
-	    }
+	    } else if (document.getElementById('js_frame') != null) {
+			// Gmail doesn't always make a canvas_frame.
+            // If there is a js_frame, but not a canvas_frame, it will
+			// be rendering into the top frame
+			makeSmileys(document);
+		}
 	}
 	
 	function makeSmileys(cf){
